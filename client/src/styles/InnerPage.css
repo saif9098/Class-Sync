@@ -1,0 +1,15 @@
+#mynav{
+  
+   height: 60px;
+   border-bottom: 3px solid #afbabe;
+    
+   
+  }
+@media (max-width:970px) {
+  #mynav{
+    height: 65px;
+  }
+}
+#box{
+    background:#ffffffda;
+}

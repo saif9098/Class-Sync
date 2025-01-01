@@ -1,0 +1,140 @@
+.resumebox{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background:white;
+}
+::-webkit-scrollbar{
+  width: 6px;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: #afbabe;
+  border-radius: 10px;
+  height: 20px;
+}
+.profile {
+    height: 90vh  ;
+    width: 28%;
+    background-color: white;
+  border-right: 1px solid gray;
+    padding: 4px;
+  }
+  .resumedetail{
+    width: 72%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+.profileinfo{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px dotted rgb(7, 7, 146);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profilepic{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgba(10, 4, 90, 0.786);
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../components/Logo/nouser.jpg'); /* Adjust the path based on your file structure */
+    background-size:cover; /* Adjusts the background size */
+    background-repeat: no-repeat;
+}
+.menu-item {
+    margin-top: 30px;
+  }
+  
+  .menu-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .menu-item i {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: black;
+  }
+  
+  .activated {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+  }
+  
+  .activated a,
+  .activated i {
+    color: #c0bfc4;
+  }
+.resumeCard{
+    height: auto;
+    position: relative;
+    background: #f8f7f7;
+    padding: 9px;
+    border-radius: 16px;
+    margin: 10px;
+}
+.inputone{
+    border: 2px solid rgb(47, 47, 48, 0.808);
+    width: 66%;
+    height: 34px;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 13px;
+}
+.inputtwo{
+    border: 2px solid rgba(47, 47, 48, 0.808);
+    width: 32%;
+    height: 34px;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 13px;
+}
+.inputthree{
+    border: 2px solid rgb(47, 47, 48, 0.808);
+    width: 49%;
+    height: 34px;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 13px;
+}
+.inputfull{
+    border: 2px solid rgb(47, 47, 48, 0.808);
+    border-radius: 8px;
+    width: 98%;
+    height: 120px;
+    padding: 4px;
+    margin-bottom: 13px;
+}
+@media (max-width:750px) {
+    .profile{
+      width: 100%;
+    }
+    .resumedetail{
+      width: 100%;
+    }
+  }
+
+  .skillfont{
+    font-size: 14px;
+    padding: 2px 7px;
+    background: #a2a2a5;
+    border-radius: 4px;
+  }
+  
+  .suggestBox{
+    position: absolute;
+    top: 80px;
+    z-index: 20;
+    left: 10px;
+    padding: 9px;
+    width: 270px;
+    border-radius: 12px;
+    background:white;
+  }
